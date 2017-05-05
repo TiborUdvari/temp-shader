@@ -9,7 +9,8 @@ from subprocess import call
 
 class SimpleChangeHandler(FileSystemEventHandler):
 
-    def on_any_event(self, event):
+    def on_modified(self, event):
+        print(event)
         print "Event has occured"
         print(os.getcwd() + "\n")
         # Commit the changes
