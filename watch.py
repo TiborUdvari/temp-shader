@@ -11,6 +11,8 @@ class SimpleChangeHandler(FileSystemEventHandler):
 
     def on_modified(self, event):
         print(event)
+        if ("." != event.src_path):
+            return
         print "Event has occured"
         print(os.getcwd() + "\n")
         # Commit the changes
