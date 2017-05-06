@@ -16,9 +16,9 @@ class SimpleChangeHandler(FileSystemEventHandler):
         print "Event has occured"
         print(os.getcwd() + "\n")
         # Commit the changes
-        call(["git", "add", "--all"])
-        call(["git", "commit", "-m", "Changes"])
-        call(["git", "push"])
+        #call(["git", "add", "--all"])
+        #call(["git", "commit", "-m", "Changes"])
+        #call(["git", "push"])
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO,
