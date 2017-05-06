@@ -16,6 +16,7 @@ class SimpleChangeHandler(FileSystemEventHandler):
         print "Event has occured"
         print(os.getcwd() + "\n")
         # Commit the changes
+        call(["sh", "upload.sh"])
         #call(["git", "add", "--all"])
         #call(["git", "commit", "-m", "Changes"])
         #call(["git", "push"])
