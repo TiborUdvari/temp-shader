@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59253289-ad05-4993-8365-43e911eae137" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="temp-shader.iws" />
     <ignored path=".idea/workspace.xml" />
